@@ -7,7 +7,7 @@
 - 遊戲結束後結算玩家分數，並顯示出來
 ```  
 
-Demo Video: https://youtu.be/-0E4gVzsqVA
+Demo Video: https://youtu.be/-0E4gVzsqVA  
 KahaGameCore：https://github.com/wannasaynone/KahaGameCore
 ## 範例
 1. 首先至官方下載相關專案，本次示範只須要使用相關美術素材，因此只輸入Sprite內的圖片素材。  
