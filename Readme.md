@@ -1,5 +1,11 @@
 # KahaGameCore Example
 這是一個用來示範如何使用KahaGameCore開發遊戲的簡易範例。  
+在這個遊戲中，包含以下規則：  
+```
+- 遊戲開始30秒後結束
+- 每吃掉一個黃色團塊，獲得一分，並在隨機位置產生新的素材
+- 遊戲結束後結算玩家分數，並顯示出來
+```  
 
 KahaGameCore：https://github.com/wannasaynone/KahaGameCore
 ## 範例
@@ -113,7 +119,7 @@ public class BumpManager : Manager
     }
 ```  
 接著在Bump和UFO上分別添加Collider2D，並製作成Prefab備用。  
-![alt text](https://raw.githubusercontent.com/wannasaynone/KahaGameCoreExample/master/README/2.png)![alt text](https://raw.githubusercontent.com/wannasaynone/KahaGameCoreExample/master/README/3.png) 
+![alt text](https://raw.githubusercontent.com/wannasaynone/KahaGameCoreExample/master/README/2.png)![alt text](https://raw.githubusercontent.com/wannasaynone/KahaGameCoreExample/master/README/3.png)  
 7. 製作一個遊戲開始用的選單UI，並為它添加UIView。  
 ![alt text](https://raw.githubusercontent.com/wannasaynone/KahaGameCoreExample/master/README/4.png)
 ```C#
