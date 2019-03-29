@@ -202,6 +202,7 @@ public class GameState : StateBase
     }
 ```  
 亦即在場景上不須指定、製作額外的Component當作Entry Point。  
+
 10. 到這邊核心流程就算完成了，接著追加一些遊戲表現，製作提示剩餘時間與目前分數的UI。
 ```C#
 using KahaGameCore.Manager;
@@ -441,4 +442,5 @@ public class EndUIPage : UIView
     }
 ```  
 以類似狀態機模式的設計保持遊戲開發的彈性與容易。
+
 13. 完成。
